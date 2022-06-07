@@ -102,7 +102,7 @@ Ruby version 3.0.2
             // import 'bootstrap/js/src/tooltip'
             ```
 
-            *app/frontend/packs/application.js*
+            *app/frontend/entrypoints/application.js*
             ```javascript
             import '../js/bootstrap_js_files.js'
             ```
@@ -121,7 +121,7 @@ Ruby version 3.0.2
             @import "~bootstrap/scss/bootstrap";
             ```
         * and impot it in
-            *app/frontend/packs/application.js*
+            *app/frontend/entrypoints/application.js*
             ```javascript
             import '../stylesheets/application'
             ```
